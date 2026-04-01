@@ -111,4 +111,3 @@ All colors, radii, fonts, and timing values are defined in `:root` as CSS variab
 ## 📄 License
 
 MIT © 2026 Tadj Eddin
-çi_m
