@@ -1,4 +1,4 @@
-# 🎯 Guess My Number
+#  Guess My Number
 
 > A browser-based number guessing game built with Vanilla JS — refactored for a 2026 portfolio with Glassmorphism UI, clean state management, and accessibility built in.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 **Guess My Number** is a lightweight, single-page interactive game where the player tries to guess a randomly generated number between 1 and 20. Each wrong guess deducts from the score; the player's goal is to guess correctly with the highest score remaining.
 
@@ -17,7 +17,7 @@ This project was originally built as a JavaScript learning exercise and has sinc
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Single-source state object** — all game data lives in one `state` object, making it easy to debug and extend
 - **Win streak tracker** — persists across rounds in the same session
@@ -30,7 +30,7 @@ This project was originally built as a JavaScript learning exercise and has sinc
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                  |
 |------------|-----------------------------|
@@ -42,7 +42,7 @@ This project was originally built as a JavaScript learning exercise and has sinc
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 guess-my-number/
@@ -59,7 +59,7 @@ guess-my-number/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 No build step or package manager required.
 
@@ -81,7 +81,7 @@ npx serve src
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
 1. A secret number between **1 and 20** is generated when the page loads.
 2. Type your guess into the input field and press **Check** (or `Enter`).
@@ -92,7 +92,7 @@ npx serve src
 
 ---
 
-## 🧠 Key Engineering Decisions
+##  Key Engineering Decisions
 
 ### Centralized State
 All mutable values (`secretNumber`, `score`, `highscore`, `streak`, `gameOver`) live inside a single `state` object. This avoids scattered `let` variables and makes future persistence (e.g., `localStorage`) trivial to add.
@@ -108,6 +108,6 @@ All colors, radii, fonts, and timing values are defined in `:root` as CSS variab
 
 ---
 
-## 📄 License
+##  License
 
 MIT © 2026 Tadj Eddin
